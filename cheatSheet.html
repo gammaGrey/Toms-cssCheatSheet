@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cheat Sheet: The Box Model</title>
+  <link href="./styles.css" type="text/css " rel="stylesheet" />
+  <link href ="#" rel="icon">
+</head>
+
+<body>
+  <!-- Saved for later use -->
+  <!-- <header>
+  <div id="nav">
+    <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+  </div>
+  </header> -->
+
+  <h1>The Box Model Cheat Sheet</h1>
+  <!-- Tags -->
+  <h2 class="title">Box Model Composition</h2>
+
+  <div class="margin">
+    margin<br>
+    <div class="padding">
+      padding
+      <div class="content">
+        content
+      </div>
+    </div>
+    <span class="box border">border ↑</span>
+  </div>
+
+  <table>
+    <thead>
+    <tr>
+      <th>Rule name</th>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="code">padding<br>
+        <span class="code subRule">padding-top<br>
+        padding-right<br>
+        padding-bottom<br>
+        padding-left</span></td>
+        <td>Distance (px, em, etc.)<br>
+          (shorthand usable)
+        </td>
+        <td>The space between content and the box border
+        </td>
+      </tr>
+      <tr>
+        <td class="code">border<br>
+        <span class="code subRule">border-top<br>
+          border-right<br>
+          border-bottom<br>
+          border-left</span></td>
+        </td>
+        <td>
+          Style (e.g. solid, dotted, dashed)<br>
+          Thickness (units)<br>
+          Colour
+        </td>
+        <td>A line around the padding of a content box</td>
+      </tr>
+      <tr>
+        <td class="code">margin<br>
+        <span class="code subRule">margin-top<br>
+          margin-right<br>
+          margin-bottom<br>
+          margin-left</span></td></td>
+        <td>Distance (px, em, etc.)<br>
+        (shorthand usable)</td>
+        <td>The space between the border and other content boxes.<br>
+        Margins overlap, giving priority to the greater value.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="title">Shorthand for Padding and Margin</h1>
+  <table>
+    <thead>
+      <tr>
+        <th># Parameters</th>
+        <th>1st</th>
+        <th>2nd</th>
+        <th>3rd</th>
+        <th>4th</th>
+      </tr>
+    </thead>
+    <tbody class="numPara">
+      <tr>
+        <td>1</td>
+        <td>All</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Top &<br>Bottom</td>
+        <td>Right &<br>Left</td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Top</td>
+        <td>Right &<br>Left</td>
+        <td>Bottom</td>
+        <td class="empty"></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Top</td>
+        <td>Right</td>
+        <td>Bottom</td>
+        <td>Left</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p><span>Brought to you by Tom</span> 🤙</p>
+  </footer>
+</body>
+</html>
